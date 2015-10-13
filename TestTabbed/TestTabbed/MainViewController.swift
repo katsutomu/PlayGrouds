@@ -5,7 +5,7 @@ class MainViewController : UITabBarController {
         super.viewDidLoad()
         let firstViewcontroller = FirstViewController.instantiate()
         let secondViewcontroller = SecondViewController.instantiate()
-
+        
         var img = UIImage(named: "first")
         let tabBarItem = UITabBarItem(title: nil, image: img, selectedImage: nil)
         tabBarItem.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.clearColor()],
